@@ -12,21 +12,18 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>Aaron McCarthy</h2>
+        <p><a href="mailto:aaronedmccarthy@gmail.com">aaronedmccarthy@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>Hi, I&apos;m Aaron. I like building things.
+        I am a <a href="https://www.scss.tcd.ie/undergraduate/computer-science-business/ss/">Trinity Computer Science and business</a> graduate
+        , <a href="https://stripe.com">ex-Stripe</a>.
+        Before Stripe I was consulting at <a href="https://www.ibm.com/consulting/">IBM</a>
+        , and I&apos;m now looking for a new opportunity.
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +34,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Aaron McCarthy <Link to="/">mldangelo.com</Link>.</p>
     </section>
   </section>
 );
