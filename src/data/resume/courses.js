@@ -2,7 +2,7 @@ const courses = [
   {
     title: 'Fuzzy Logic & Control Systems',
     number: 'CSU44001',
-    link: 'scss.tcd.ie/undergraduate/computer-science-business/ss/#CSU44001',
+    link: 'https://www.scss.tcd.ie/undergraduate/computer-science-business/ss/#CSU44001',
     university: 'Trinity College Dublin',
   },
   {

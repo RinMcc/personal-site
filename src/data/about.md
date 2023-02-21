@@ -15,7 +15,7 @@ I'm currently refreshing my engineering and development skills by building this 
 - space / astronomy
 - books - let me know if you have any recommendations
 - podcasts ([The Daily](https://www.nytimes.com/column/the-daily), [Planet Money](https://www.npr.org/sections/money/), [The Economist](http://radio.economist.com/), [HubermanLab](https://hubermanlab.com/category/podcast-episodes/),  and others)
-- [Good design](/)
+- [Good design](https://rinmcc.github.io/personal-site/)
 
 # Fun facts
 
