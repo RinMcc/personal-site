@@ -13,6 +13,7 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Aaron McCarthy</h2>
+        <p>pronunciation Ah-rin <br /> Mack Car-Thee</p>
         <p><a href="mailto:aaronedmccarthy@gmail.com">aaronedmccarthy@gmail.com</a></p>
       </header>
     </section>
@@ -34,7 +35,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Aaron McCarthy <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Aaron McCarthy <Link to="/">https://rinmcc.github.io/personal-site/</Link>.</p>
     </section>
   </section>
 );
