@@ -62,5 +62,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "See: [mldangelo.com](https://mldangelo.com).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "aaron mccarthy"
 }

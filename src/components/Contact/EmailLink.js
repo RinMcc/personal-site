@@ -13,8 +13,8 @@ const messages = [
   'hi',
   'hello',
   'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
+  'you-can-email-me-literally-anything. Really',
+  'well not anything. But most things',
   'like-this',
   'or-this',
   'but not this :(  ',
@@ -47,7 +47,7 @@ const useInterval = (callback, delay) => {
 
 const EmailLink = ({ loopMessage }) => {
   const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
+  const delay = 70; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
   const [message, updateMessage] = useState(messages[idx]);
@@ -82,10 +82,14 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? 'mailto:aaronedmccarthy@gmail.com' : ''}>
-        <span>aaronedmccarthy@gmail.com       </span>
-        <span> {message}</span>
+      <a href="mailto:aaronedmccarthy@gmail.com">
+        <span>aaronedmccarthy@gmail.com</span>
       </a>
+      <p>
+        <br />
+        You can email me anything , like:
+      </p>
+      <p>{message}</p>
     </div>
   );
 };
